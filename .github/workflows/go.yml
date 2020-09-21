@@ -34,4 +34,31 @@ jobs:
       run: go build -v .
 
     - name: Test
-      run: go test ./... -v .
+      run: go test ./... -v -coverprofile=coverage.out .
+      
+    - name: Codecov
+      # You may pin to the exact commit or the version.
+      # uses: codecov/codecov-action@6004246f47ab62d32be025ce173b241cd84ac58e
+      uses: codecov/codecov-action@v1.0.13
+      with:
+        # User defined upload name. Visible in Codecov UI
+        name: Fizz-Buzz-REST-server
+        # Path to coverage file to upload
+        file: ./coverage.out
+        fail_ci_if_error: "false"
+    - name: SonarCloud Scan
+      # You may pin to the exact commit or the version.
+      # uses: SonarSource/sonarcloud-github-action@f4c6e4d91ea9785ec823eaeed459042606123402
+      uses: SonarSource/sonarcloud-github-action@v1.4
+      with:
+        # Additional arguments to the sonarcloud scanner
+        args: >
+          -Dsonar.organization=rickdana
+          -Dsonar.projectKey=rickdana_Fizz-Buzz-REST-server
+          -Dsonar.python.coverage.reportPaths=./coverage.xml
+          -Dsonar.sources=lib/
+          -Dsonar.test.exclusions=*/**/*_test
+          -Dsonar.tests=*/**/*_test
+          -Dsonar.verbose=true
+        # Set the sonar.projectBaseDir analysis property
+        projectBaseDir: .
