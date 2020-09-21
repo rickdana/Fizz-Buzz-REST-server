@@ -58,7 +58,6 @@ jobs:
           -Dsonar.organization=rickdana
           -Dsonar.projectKey=rickdana_Fizz-Buzz-REST-server
           -Dsonar.python.coverage.reportPaths=./coverage.xml
-          -Dsonar.sources=lib/
           -Dsonar.verbose=true
         # Set the sonar.projectBaseDir analysis property
         projectBaseDir: .
