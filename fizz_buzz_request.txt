@@ -1,0 +1,11 @@
+{"firstMultiple":3,"secondMultiple":5,"limit":15,"fizzWord":"Fizz","buzzWord":"Buzz"}
+{"firstMultiple":7,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":100,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":4,"secondMultiple":9,"limit":30,"fizzWord":"Hello","buzzWord":"Worl"}
+{"firstMultiple":3,"secondMultiple":5,"limit":15,"fizzWord":"Hello","buzzWord":"World"}

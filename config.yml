@@ -1,0 +1,15 @@
+# Server configurations
+server:
+  host: "localhost"
+  port: 8443
+
+dataSource:
+  fileStore: "/Users/rickdana/Go/src/github.com/rickdana/fizzbuzzApi/fizz_buzz_request.txt"
+
+logger:
+  filePath: "/Users/rickdana/Go/src/github.com/rickdana/fizzbuzzApi/fizz_buzz.log"
+
+auth:
+  username: "admin"
+  password: "changeit"
+
