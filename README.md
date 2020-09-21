@@ -143,6 +143,12 @@ go run main.go
 		}'
 		```
 
+## Code quality  
+ 
+| Agent | result |
+|--|--|
+| codecov |[![codecov](https://codecov.io/gh/rickdana/Fizz-Buzz-REST-server/branch/master/graph/badge.svg)](https://codecov.io/gh/rickdana/Fizz-Buzz-REST-server)  |
+
 ## Contributing  
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.  
   
