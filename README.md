@@ -148,7 +148,8 @@ go run main.go
 | Agent | result |
 |--|--|
 | codecov |[![codecov](https://codecov.io/gh/rickdana/Fizz-Buzz-REST-server/branch/master/graph/badge.svg)](https://codecov.io/gh/rickdana/Fizz-Buzz-REST-server)  |
-
+|--|--|
+| sonar | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rickdana_Fizz-Buzz-REST-server&metric=alert_status)](https://sonarcloud.io/dashboard?id=rickdana_Fizz-Buzz-REST-server) |
 ## Contributing  
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.  
   
